@@ -77,7 +77,7 @@ else
   let s:green           = s:dark_green
   let s:red             = s:dark_red
   let s:yellow          = s:dark_yellow
-  let s:visual          = s:light_blue
+  let s:visual          = s:light_yellow
   let s:cursor_line     = s:lightest_gray
   let s:status_line     = s:medium_gray
   let s:status_line_nc  = s:light_gray
