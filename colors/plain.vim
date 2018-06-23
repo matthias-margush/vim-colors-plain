@@ -82,7 +82,7 @@ else
   let s:status_line     = s:medium_gray
   let s:status_line_nc  = s:light_gray
   let s:constant        = s:dark_blue
-  let s:comment         = s:light_gray
+  let s:comment         = s:white
   let s:selection       = s:light_yellow
   let s:warning         = s:yellow
 endif
@@ -102,7 +102,7 @@ endfunction
 call s:h("Normal",        {"bg": s:bg, "fg": s:norm})
 call s:h("Noise",         {"bg": s:bg, "fg": s:norm_subtle})
 call s:h("Cursor",        {"bg": s:green, "fg": s:norm})
-call s:h("Comment",       {"fg": s:comment, "cterm": "italic"})
+call s:h("Comment",       {"fg": s:light_gray, "bg": s:comment, "cterm": "italic"})
 call s:h("Function",      {"fg": s:norm, "cterm": "bold"})
 
 call s:h("Constant",      {"bg": s:bg, "fg": s:constant})
